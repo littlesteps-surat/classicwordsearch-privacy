@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for Classic Word Search, published under the LittleSteps Lab brand.">
+  <title>Classic Word Search — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 1.5rem; font: 1rem/1.65 system-ui, sans-serif; background: #f4f8f7; color: #19352f; }
+    main { max-width: 50rem; margin: auto; padding: 2rem; background: #fff; border: 1px solid #cbded8; border-radius: 1rem; }
+    h1, h2 { line-height: 1.3; }
+    h1 { font-size: 2rem; margin-top: .5rem; }
+    h2 { font-size: 1.3rem; margin-top: 2rem; }
+    a { color: #075e50; text-underline-offset: .18em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #bc6a00; outline-offset: 4px; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+    li { margin: .5rem 0; }
+    .summary { padding: 1rem 1.25rem; background: #edf7f3; border-left: 4px solid #23745f; }
+    .date, .brand { color: #455e56; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #cbded8; }
+    @media (max-width: 36rem) { body { padding: .75rem; } main { padding: 1.25rem; } h1 { font-size: 1.7rem; } }
+    @media (prefers-color-scheme: dark) { body { background: #12231f; color: #e5f1ec; } main { background: #192e27; border-color: #4a665b; } a { color: #a5e6cb; } .summary { background: #244135; border-color: #8cdbb8; } .date, .brand { color: #bfd2c9; } footer { border-color: #4a665b; } }
+    @media print { body, main { background: #fff; color: #000; } main { border: 0; padding: 0; } a, .date, .brand { color: #000; } }
+  </style>
+</head>
+<body>
+<main>
+  <p class="brand">LittleSteps Lab · Classic Word Search</p>
+  <nav aria-label="Legal pages"><a href="index.html" aria-current="page">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective and last updated: 13 November 2026 (2026-11-13)</p>
+  <p>This notice explains the Android game <strong>Classic Word Search</strong>, published under the <strong>LittleSteps Lab</strong> brand. The release package is <strong>com.littlesteps.classicwordsearch</strong>; development installations use a separate <strong>.debug</strong> package. Questions can be sent to <a href="mailto:littlesteps.surat@gmail.com">littlesteps.surat@gmail.com</a>.</p>
+
+  <div class="summary">
+    <p><strong>In brief:</strong> puzzles, progress and preferences are kept on your device. There are no app accounts, purchases, cloud saves or developer-operated game servers. However, Google advertising, privacy messaging and eligible Google Play update services can handle data off the device. “Offline gameplay” does not mean “no SDK data collection.”</p>
+  </div>
+
+  <h2>1. Children and family use</h2>
+  <p>The intended minimum age is <strong>3 years</strong>. The game is not intended for children under 3. A parent or legal guardian should review this notice and the <a href="terms.html">Terms of Use</a>, decide whether the game is suitable for their child, and supervise advertising and any use of other apps or websites.</p>
+  <p>The Welcome acknowledgment asks for a simple confirmation that the player is at least 3 and that the Terms and privacy information have been reviewed. Only a completed-acknowledgment flag and the policy revision (2026-11-13 for this notice) are saved locally in the installation. It does not collect an exact age, birth year, date of birth, identity document or app account. It is a self-attestation, not identity verification or a substitute for any parental permission that applicable law requires.</p>
+  <p><strong>All advertising requests receive child treatment, including for older players.</strong> The app does not use the age acknowledgment to enable adult or personalized advertising. Google privacy settings are safeguards, not a certification that the app complies with every law in every country.</p>
+
+  <h2>2. Information stored locally</h2>
+  <p>The game uses a bundled English vocabulary and private Android app storage. Its versioned saved-game file, <strong>game-state.json</strong>, can contain:</p>
+  <ul>
+    <li>Level progress, current puzzle boards, found words, completion state and elapsed playing time.</li>
+    <li>Local best times and the word indices that have received a first-letter hint.</li>
+    <li>Sound, music, light/dark theme, grayscale and grid-line preferences.</li>
+    <li>Completed-puzzle counters and timestamps used to space automatic full-screen ads.</li>
+  </ul>
+  <p>The Welcome acknowledgment is also local. Google SDKs may keep their own privacy state, caches or technical information within the installation. The publisher has not added an app-owned online database, SQLite game database, custom backend, login, profile, online leaderboard, Google Play Games integration, billing or cloud synchronization.</p>
+  <p>The game does not automatically upload its saved boards, word selections, best-time records or preferences to the publisher or supply them as ad-targeting fields. Google SDK collection described below is separate from these local records.</p>
+
+  <h2>3. Google advertising and off-device data</h2>
+  <p>The app includes <strong>Google Mobile Ads SDK 25.5.0</strong> for AdMob advertising. Google's SDK disclosure describes automatic collection and sharing for advertising, analytics and fraud prevention, including:</p>
+  <ul>
+    <li>The device's IP address, which can be used to estimate a general or approximate location.</li>
+    <li>App and ad interactions, such as launches, taps and video views.</li>
+    <li>Diagnostic information about app/SDK performance, including loading time, hangs and energy usage.</li>
+    <li>Device or app identifiers, such as app set ID, and, where applicable, other identifiers described in Google's disclosure.</li>
+  </ul>
+  <p>The app sets <strong>AgeRestrictedTreatment.CHILD</strong>, a maximum Google ad-content rating of <strong>G</strong>, and <strong>PublisherPrivacyPersonalizationState.DISABLED</strong> before initializing the ads SDK. Google's child-treatment documentation says personalized ads and remarketing are disabled, third-party ad-vendor requests are restricted, and the Android Advertising Identifier (AAID) is not transmitted. The app also removes the Google <strong>AD_ID</strong> permission. These settings do <strong>not</strong> establish that all other identifiers, IP addresses, diagnostics or ad-interaction data disappear. The G setting is an ad filter, not an official content rating awarded to this game.</p>
+  <p>The publisher does not send a player name, date of birth, email address, account profile or saved puzzle as advertising input. Google handles SDK server data under its own policies, which describe possible processing on servers outside your country. An advertisement you choose to open can lead to an advertiser's website or another app with its own data practices.</p>
+
+  <h2>4. Privacy messaging and choices</h2>
+  <p><strong>Google User Messaging Platform (UMP) 4.0.0</strong> checks with Google which privacy requirements and messages apply. Such requests involve off-device communication and request metadata; any applicable privacy state or choices are handled through Google's messaging service and local SDK storage. This app does not configure a consent-sync account identifier.</p>
+  <p>UMP is configured with its <strong>under-age-of-consent flag set to true for every player</strong>. Google documents that this flag prevents UMP from requesting consent from an under-age user. It is separate from the ads SDK's child-treatment setting; both are configured. A European advertising consent form therefore may not appear. No form appearing does not mean that Google services handle no data.</p>
+  <p>When Google reports that a privacy-options entry point is required, the app exposes <strong>Privacy options</strong> in Settings. A parent or guardian can help review the options made available there. Availability depends on Google's requirements and message configuration. Changing available privacy choices does not switch off this app's child-treatment protections or enable personalized ads.</p>
+  <p>The banner and video-ad integrations remain disabled until the current Welcome/policy acknowledgment is complete. Ad requests also require the app's Google privacy-readiness checks to permit them. If those checks or ad requests fail, the game remains playable after Welcome. The Welcome acknowledgment is not permission for personalized ads, and choosing a hint video is not a general consent to data collection.</p>
+
+  <h2>5. Where ads appear and how hints work</h2>
+  <ul>
+    <li><strong>Banner:</strong> a bottom adaptive banner in a separate area outside the puzzle controls.</li>
+    <li><strong>Interstitial:</strong> an automatic full-screen ad may appear at a completed-puzzle results screen after every five completed puzzles, subject to a minimum five-minute interval since the last full-screen ad. A rewarded video also updates that timestamp, delaying the next automatic interstitial. Inventory, privacy status and foreground readiness can cause an eligible ad to be skipped.</li>
+    <li><strong>Optional rewarded video:</strong> the player explicitly chooses a video for one first-letter hint for an unfound, not-already-hinted word in the originating puzzle. The app grants the hint only when Google's SDK reports the reward as earned. Merely starting, closing or failing to load a video is not an earned reward. The hint does not solve the word, has no real-money value and cannot be bought or transferred.</li>
+  </ul>
+  <p>The app does not show app-open, launch, exit or background ads. Ordinary gameplay does not require choosing a rewarded video. Google may receive ad-request data when ads are requested or preloaded while the app is in the foreground, even if the player never chooses a hint. The optional video is not a universal opt-out from banner, interstitial or SDK processing. Ad availability, content filtering and Google's review or serving decisions are not guaranteed by this notice.</p>
+
+  <h2>6. Optional Google Play updates</h2>
+  <p>Eligible Google Play installations use <strong>Play In-App Updates 2.1.0</strong>. The app can check update availability on foreground entry or when you choose <strong>Check for updates</strong>. A flexible update uses Google's confirmation/download flow while the app remains usable; installation/restart requires your explicit action and a safe saved-game state.</p>
+  <p>Google's update disclosure lists device metadata, application version, and the list of installed modules and asset packs, used to determine update availability and download size. This describes the app's installation components, not an app feature that reads all your other installed apps. The game does not supply saved puzzle content to the update check. Google says update data is encrypted, is not transferred to third parties, and is deleted after a fixed retention period; the disclosure does not specify that period's length.</p>
+  <p>Updates depend on Google Play availability, ownership and an eligible version. Local debug builds and unsupported installations cannot use the release package's Play update flow. There is no custom APK downloader or installer.</p>
+
+  <h2>7. Sharing and contacting support</h2>
+  <p><strong>Share</strong> opens Android's native chooser. The prepared text contains only the original app name or actual puzzle-result details, such as level/difficulty, grid size, words found and elapsed time. Another app receives it only when you select a destination. There is no automatic send, contact upload, in-game chat or online social profile. A receiving app may transmit or retain the text under its own policy; check the destination and recipients, with a guardian's help where appropriate.</p>
+  <p>If you email support, you voluntarily provide your email address, message and any attachments you choose. These are handled through the support mailbox to respond to your request and address app or privacy concerns, not collected by a game-account form. Include only necessary details; guardians should contact support for children and avoid sending a child's full name, birth date, photos or other unnecessary personal information. You may ask about deletion of support correspondence, but provider retention, backups and applicable legal requirements can affect what can be removed.</p>
+
+  <h2>8. Permissions and connectivity</h2>
+  <p>The app declares <strong>Internet</strong> and <strong>network-state</strong> access for Google services. Its Google AD_ID permission is explicitly removed. Bundled Google/Android libraries can additionally declare normal advertising-services permissions and SDK service-management permissions; removal of AD_ID alone is not removal of every advertising-related capability.</p>
+  <p>The game does not request location, contacts, camera, microphone, broad file/media access or notification runtime permissions. It has no reminder or notification feature. Approximate location inferred by Google from an IP address does not require a location permission. Gameplay and reading bundled legal notices do not require a network connection; ads, privacy-message checks, external links, email and Play updates can use connectivity and your provider's data allowance.</p>
+
+  <h2>9. Retention, removal and your choices</h2>
+  <p>Local progress and preferences remain in that installation until replaced by gameplay or removed. To reset them, use Android <strong>Settings → Apps → Classic Word Search → Storage</strong> (or <strong>Storage &amp; cache</strong>) → <strong>Clear storage/Clear data</strong>, or uninstall the app. Menu names vary. Clearing cache alone is not the same as clearing saved-game data. Removal loses local progress, best times, hints, preferences and the Welcome acknowledgment; the publisher has no cloud save from which to recover them. A separate debug installation has separate local data.</p>
+  <p>The app disables Android app backup and excludes its app data from configured cloud backup and device-transfer rules. These are app configuration choices, not a guarantee about every device manufacturer's behavior or copies made outside the app.</p>
+  <p>Clearing storage or uninstalling removes app-local data from the selected installation through Android. It does not erase data already handled on Google's servers, support email, text sent to another app, operating-system records, or copies outside the app. Google's SDK/server retention and deletion are controlled by Google, not by the game's local save file. There is no publisher-held player account or remote game record to delete. For Google's controls, retention information and privacy requests, consult <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Contact support for questions about information the publisher actually controls; we cannot promise deletion of another service's records.</p>
+
+  <h2>10. Security and this website</h2>
+  <p>Private app storage uses Android's application-access protections. The game does not add a separate app-level encryption scheme to its JSON save file; device security depends on Android, device settings and access to the device. Google states that Mobile Ads SDK data uses Transport Layer Security (TLS) in transit, and describes Play update data as encrypted. These statements are not a guarantee that every device, external share destination or service is risk-free, or that local data is end-to-end encrypted.</p>
+  <p>The online legal pages are prepared for GitHub Pages as two static HTML documents with inline styling. They contain no scripts, analytics, advertising, tracking pixels, external fonts or embedded external assets. GitHub documents that visits to Pages sites cause the visitor's IP address to be logged and stored for security purposes, even without a GitHub login. See <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a> and the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Reading the bundled offline copies does not contact GitHub. External links and email destinations are contacted only if you choose to open them.</p>
+
+  <h2>11. Further information and updates to this notice</h2>
+  <p>The following official Google references explain the provider's practices and controls; they do not replace the app-specific information above:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google advertising information</a>.</li>
+    <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads SDK Google Play data disclosure</a>.</li>
+    <li><a href="https://support.google.com/admob/answer/6219315">Google's child age-treatment behavior</a>.</li>
+    <li><a href="https://developers.google.com/admob/android/privacy">UMP privacy messaging</a> and <a href="https://developers.google.com/admob/android/privacy/gdpr#tag_for_under_age_of_consent">UMP's under-age-of-consent setting</a>.</li>
+    <li><a href="https://developer.android.com/guide/playcore/in-app-updates#data-safety">Google Play in-app update data safety</a>.</li>
+  </ul>
+  <p>Changes to the game or its services may require an updated notice. The date above identifies this version; bundled copies reflect the version supplied with an app release and may need an app update to reflect later changes. Review updated information before using changed features.</p>
+  <p>Players and guardians can send privacy questions or requests relating to applicable rights to <a href="mailto:littlesteps.surat@gmail.com">littlesteps.surat@gmail.com</a>. State the concern without sending passwords, identity documents or unnecessary child information.</p>
+  <footer>
+    <p><strong>LittleSteps Lab</strong> · Classic Word Search<br><a href="terms.html">Terms of Use</a> · <a href="https://littlesteps-surat.github.io/classicwordsearch-privacy/">Privacy page address</a></p>
+  </footer>
+</main>
+</body>
+</html>
